@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlippedTutor", "FlippedTutor\FlippedTutor.csproj", "{123AE595-6B6D-4585-B72C-E08026AC8CFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{123AE595-6B6D-4585-B72C-E08026AC8CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{123AE595-6B6D-4585-B72C-E08026AC8CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{123AE595-6B6D-4585-B72C-E08026AC8CFE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{123AE595-6B6D-4585-B72C-E08026AC8CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{123AE595-6B6D-4585-B72C-E08026AC8CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{123AE595-6B6D-4585-B72C-E08026AC8CFE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B55A1BD-7656-420E-9629-0259B59D17A4}
+	EndGlobalSection
+EndGlobal

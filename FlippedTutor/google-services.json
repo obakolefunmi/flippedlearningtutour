@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "995622298772",
+    "firebase_url": "https://flippedcu.firebaseio.com",
+    "project_id": "flippedcu",
+    "storage_bucket": "flippedcu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995622298772:android:40aceca67a9677a7",
+        "android_client_info": {
+          "package_name": "FlippedTutor.FlippedTutor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995622298772-a9io0dp74ciqltvppfsoqv795ha8qmiu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "FlippedTutor.FlippedTutor",
+            "certificate_hash": "3a2eb4b1e892bb52e01d59c0b4f17945c4668ed4"
+          }
+        },
+        {
+          "client_id": "995622298772-qeanv8hk9g648gv597bfom1e7ugvhm0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWP-WzQWdWZPYxrgs43SJUCEQI8lDpUzo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995622298772-qeanv8hk9g648gv597bfom1e7ugvhm0i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

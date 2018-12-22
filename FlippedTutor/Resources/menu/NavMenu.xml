@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+    <item
+      android:id="@+id/nav_home"
+      android:icon="@drawable/ic_home"
+      android:title="Home" />
+    <item
+      android:id="@+id/nav_profile"
+      android:icon="@drawable/ic_profile"
+      android:title="Profile" />
+        <item
+      android:id="@+id/nav_new"
+      android:icon="@drawable/ic_new"
+      android:title="Add Lecture" />
+    <item
+      android:id="@+id/nav_cancel"
+      android:icon="@drawable/ic_del"
+      android:title="Remove Lecture" />
+    <item
+      android:id="@+id/nav_courses"
+      android:icon="@drawable/ic_lecture"
+      android:title="My Courses" />
+    <item
+      android:id="@+id/nav_question"
+      android:icon="@drawable/ic_question"
+      android:title="Questions" />
+
+  </group>
+
+  <item >
+    <menu>
+     <item
+      android:id="@+id/nav_settings"
+      android:icon="@drawable/ic_settings"
+      android:title="Settings" />
+     
+      <item
+    android:id="@+id/nav_signout"
+      android:icon="@drawable/ic_out"
+      android:title="Signout" />
+    </menu>
+  </item>
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">FlippedTutor</string>
+  <string name="open_drawer">Open drawer</string>
+  <string name="close_drawer">Close drawer</string>
+  <string name="profile">PROFILE</string>
+  <string name="planet_prompt">Title</string>
+  <string name="option_prompt">Select the option where the answer is</string>
+
+  <string-array name="Title_array">  
+    <item> Graduate Assistant</item>
+    <item>Assistant Lecturer</item>
+    <item>Lecturer II</item>
+    <item>Lecturer I</item>
+    <item>Senior Lecturer</item>    
+    <item>Associate Professor</item>
+    <item>Professor</item>    
+  </string-array>
+  <string-array name="Options">
+    <item>A</item>
+    <item>B</item>
+    <item>C</item>
+    <item>D</item>
+    
+  </string-array>
+
+</resources>
+

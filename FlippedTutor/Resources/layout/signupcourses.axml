@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <ProgressBar
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/signupCoursespgb"
+       android:visibility="gone" />
+  <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupCoursesHolder">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/courseWelcome"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:typeface="monospace"
+        android:text="Hi Charles! This is the Last stage" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/coursesSearch"
+        android:hint="Search..."
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp" />
+    <TextView
+        android:text="Select the courses you lecture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_margin="5dp"
+        android:textColor="#ff7d1c7a" />
+   
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/courseList"
+        android:layout_weight="10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="2dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Previous"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/coursesPrevious"
+            android:layout_margin="5dp"
+            android:textColor="#ff7d1c7a"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/space1"
+            android:layout_weight="10" />
+        <TextView
+            android:text="Done"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/coursesNext"
+            android:layout_margin="5dp"
+            android:textColor="#ff7d1c7a"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp" />
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

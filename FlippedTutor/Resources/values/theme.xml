@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="theme_custom1_background">#ffffffff</color><color name="theme_appcompat_noactionbar_background">#fffbfbfb</color>
+  <style name="Theme.Custom" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:colorBackground">@color/theme_appcompat_noactionbar_background</item>
+    <item name="android:windowBackground">?android:attr/colorBackground</item>
+    <item name="android:colorPrimary">#ff7d1c7a</item>
+    <item name="android:colorPrimaryDark">#ff420f41</item>
+    <item name="android:colorAccent">#ffeeb6ec</item>
+    <item name="android:textColorPrimary">#ff111111</item>
+    <item name="android:colorButtonNormal">#ffe09ff1</item>
+  </style>
+  
+    <style name="Theme.Custom1" parent="Theme.AppCompat.Light.DarkActionBar">
+      <item name="windowNoTitle">true</item>
+      <item name="windowActionBar">false</item>
+      <item name="colorPrimary">#ff7d1c7a</item>
+      <item name="colorPrimaryDark">#ff420f41</item>
+      <item name="colorAccent">#ffeeb6ec</item>
+      <item name="android:colorAccent">#16e5a4e9</item>
+      <item name="android:colorPrimary">#ff7d1c7a</item>
+      <item name="android:colorPrimaryDark">#ff420f41</item>
+    <item name="android:colorButtonNormal">#ff5d237a</item><item name="android:colorBackground">@color/theme_custom1_background</item><item name="android:windowBackground">?android:attr/colorBackground</item></style>
+  
+    <style name="Theme.Custom2" parent="Theme.AppCompat.Light.DarkActionBar">
+      <item name="windowNoTitle">true</item>
+      <item name="windowActionBar">false</item>
+      <item name="colorPrimary">#ff7d1c7a</item>
+      <item name="colorPrimaryDark">#ff420f41</item>
+      <item name="colorAccent">#ffeeb6ec</item>
+    </style>
+    <style name="Mdrawerarrowstyle" parent="Widget.AppCompat.DrawerArrowToggle">
+      <item name="color">#ff7d1c7a</item>
+      <item name="spinBars">true</item>
+
+    </style>
+  
+  
+</resources>
